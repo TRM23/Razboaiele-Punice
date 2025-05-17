@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('https://warfarehistorynetwork.com/wp-content/uploads/2015/11/M108006-e1721338856829.png');
+    background-image: url('titlu.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -57,7 +57,11 @@ section {
 section h2 {
     font-family: 'Playfair Display', serif;
     color: #2b1505;
-    font-size: clamp(24px, 6vw, 60px);
+    font-size: clamp(24px, 5vw, 70px);
+}
+
+section p {
+    font-size: clamp(16px, 3vw, 20px);
 }
 
 .quote {
@@ -88,6 +92,9 @@ footer {
 
 @media (max-width: 600px) {
     header h1 {
-    font-size: 2em;
+        font-size: 2em;
+    }
+    section h2 {
+        font-size: 40px;
     }
 }
