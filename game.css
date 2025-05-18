@@ -1,0 +1,44 @@
+.alege-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: rgba(243, 223, 43, 0.842);
+}
+
+.alege-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 165, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: 150ms;
+}
+
+.alege-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(240, 146, 24, 0.808);
+    color: white;
+}
+
+.alege-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.corect {
+    background-color: green;
+}
+
+.incorect {
+    background-color: rgb(255, 0, 0);
+}
+
+.game_container{
+    padding: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#question {
+    font-size: 3rem;
+}

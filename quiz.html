@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Punic Wars</title>
+  <title>Războaiele punice</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
 </head>
 <body>
     <header>
@@ -18,11 +19,33 @@
         <a href="index1.html">Primul Război</a>
         <a href="index2.html">Al doilea Război</a>
         <a href="index3.html">Al treilea Război</a>
-        <a href="quiz.html">Quiz</a>
+        <a href="quiz-home.html">Quiz</a>
         <a href="webografie.html">Webografie</a>
     </nav>
+    <div class="game_container">
+        <div id="game" class="justify-center flex-column">
+            <h2 id="question">Intrebare 1?</h2>
+            <div class="alege-container">
+                <p class="alege-prefix">A</p>
+                <p class="alege-text" data-number="1">Alegere 1</p>
+            </div>
+            <div class="alege-container">
+                <p class="alege-prefix">B</p>
+                <p class="alege-text" data-number="2">Alegere 2</p>
+            </div>
+            <div class="alege-container">
+                <p class="alege-prefix">C</p>
+                <p class="alege-text" data-number="3">Alegere 3</p>
+            </div>
+            <div class="alege-container">
+                <p class="alege-prefix">D</p>
+                <p class="alege-text" data-number="4">Alegere 4</p>
+            </div>
+        </div>
+    </div>
     <footer>
         <p>© 2025 History Project – The Punic Wars | Designed with ❤️ by [Your Name]</p>
     </footer>
+    <script src="game.js"></script>
 </body>
 </html>
