@@ -42,3 +42,33 @@
 #question {
     font-size: 3rem;
 }
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #f3b04b;
+    margin-top: 20px;
+}
+
+#progressBarFull {
+    height: 4rem;
+    background-color: #f3b04b;
+    width: 0%;
+}

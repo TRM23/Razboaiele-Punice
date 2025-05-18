@@ -86,9 +86,12 @@ footer {
     background-color: #222;
     color: #ddd;
     text-align: center;
-    padding: 20px;
+    padding: 1em;
     font-size: 0.9em;
 }
+main {
+      flex: 1; /* pushes the footer down */
+    }
 
 @media (max-width: 600px) {
     header h1 {
@@ -123,6 +126,11 @@ footer {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-center {
@@ -180,4 +188,11 @@ footer {
 .g1 {
     font-size: 5.4rem;
     color: #2b1505;
+}
+
+.over {
+    background-image: url(bg.png);
+    background-size: cover;
+    margin: -20px;
+    color: rgb(0, 0, 0);
 }
